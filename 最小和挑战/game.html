@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最小和挑战</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="main-container" id="main-container">
+        <div class="container">
+            <h1 class="title">最小和挑战</h1>
+            <button class="button" onclick="showRules()">查看游戏规则</button>
+            <button class="button" onclick="startGame()">开始游戏</button>
+        </div>
+    </div>
+    <div class="container rules-container" id="rules-container">
+        <h2>游戏规则</h2>
+        <p>游戏将给出一个长度为 n 的整数数组 a 和一个整数 k。玩家需要计算在最多执行 k 次操作的情况下，数组 a 的最小总和。</p>
+        <p>注: 操作为选择数组中的一个元素，并用其邻近元素的值替换它</p>
+        <p>例如，如果是 a=[3,1,2]，你可以通过一次操作得到数组 [3,3,2] 、 [3,2,2] 和 [1,1,2] 中的一个，但不能得到 [2,1,2] 或 [3,4,2]</p>
+        <div class="button-container">
+            <button class="button" onclick="backToMain()">返回主界面</button>
+        </div>
+    </div>
+    <div class="container game-container" id="game-container">
+        <h2>数组最小总和挑战</h2>
+        <div id="input-container">
+            <label>输入数组长度 (3 <= n <= 10): </label>
+            <input type="number" id="length-input" min="3" max="10">
+            <button class="button" onclick="generateQuestion()">生成题目</button>
+        </div>
+        <div id="question-container" style="display: none;">
+            <div class="number-display">
+                <label>数组 a: </label>
+                <div id="a-display"></div>
+            </div>
+            <div class="k-display">
+                <label>可替换次数 k: </label>
+                <div id="k-display"></div>
+            </div>
+            <input type="text" id="sum-input" placeholder="请输入最小总和">
+            <div class="button-container">
+                <button class="button" onclick="submitResult()">提交</button>
+                <button class="button" onclick="refreshQuestion()">刷新题目</button>
+                <button class="button" onclick="backToMain()">返回主界面</button>
+            </div>
+        </div>
+        <div class="result" id="result-display"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

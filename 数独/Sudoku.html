@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="Sudoku.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sudoku Game</h1>
+        <div class="controls">
+            <label for="difficulty">Level:</label>
+            <select id="difficulty">
+                <option value="3">Easy</option>
+                <option value="4">Medium</option>
+                <option value="5">Hard</option>
+            </select>
+            <button id="start">Start</button>
+        </div>
+        <div class="controls">
+            <button id="hint" style="display:none;">Hint</button>
+            <button id="solution" style="display:none;">Solution</button>
+        </div>
+        <div id="sudoku-board"></div>
+    </div>
+
+    <div id="win-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Congratulations!</h2>
+            <p>You have completed the Sudoku puzzle.</p>
+        </div>
+    </div>
+
+    <script src="Sudoku.js"></script>
+</body>
+</html>

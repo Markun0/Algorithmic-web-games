@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.title {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s, background 0.3s;
+}
+.button:hover {
+    background: black;
+    transform: scale(1.05);
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.rules-container, .game-container {
+    display: none;
+}
+.number-box {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+.number-display, .k-display {
+    margin: 20px 0;
+}
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.result {
+    margin-top: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button-container button {
+    margin-right: 10px;
+}

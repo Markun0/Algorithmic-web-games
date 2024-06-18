@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉诺塔</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="div-now" style="display: flex; align-items: center;">
+        <div style="margin-right: 20px;">当前抓取：</div>
+        <li id="now" style="margin-right: 20px;"></li>
+        <div style="margin-right: 20px;">总次数：</div>
+        <li id="sum" style="margin-right: 20px;">0</li>
+        <div style="margin-right: 20px;">最少需要次数：</div>
+        <li id="ans" style="margin-right: 20px;"></li>
+    </div>
+    <div class="flex-container" id="tower-container">
+        <ul id="tow1" class="tower-class"></ul>
+        <ul id="tow2" class="tower-class"></ul>
+        <ul id="tow3" class="tower-class"></ul>
+    </div>
+    <div id="btn-container" class="btn-div">
+        <button id="btn1" class="btn-class">第一列</button>
+        <button id="btn2" class="btn-class">第二列</button>
+        <button id="btn3" class="btn-class">第三列</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

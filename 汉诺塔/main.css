@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* 添加过渡效果 */
+li {
+    border: 2px solid black;
+    list-style-type: none;
+    font-size: 32px;
+    text-align: center;
+    width: 50px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease; /* 添加过渡效果，持续时间0.3秒 */
+}
+
+/* 定义移动时的动画效果 */
+.move-animation {
+    transform: translateY(-50px); /* 移动动画效果，向上移动50px */
+    opacity: 0.5; /* 降低透明度 */
+}
+
+.btn-div {
+    height: 25px;
+}
+
+.btn-class {
+    height: 25px;
+    margin: 20px; /* 调整按钮间距 */
+    margin-top: 70px; /* 按钮与塔之间的间距 */
+}
+
+.flex-container {
+    display: flex;
+    height: 200px; /* 设置一个固定的高度 */
+}
+
+.tower-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; /* 将盘子放置在塔的底部 */
+    border: 2px solid black;
+    margin: 0 10px; /* 调整塔之间的间距 */
+    padding: 10px;
+}
+
+.tower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; /* 调整塔之间的间距 */
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    border: 2px solid black;
+    list-style-type: none;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 5px;
+    transition: all 0.3s ease; /* 过渡效果 */
+}
+
+
+#div-now {
+    margin-bottom: 20px; /* 调整顶部信息与游戏区域的间距 */
+}
