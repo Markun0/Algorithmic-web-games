@@ -10,12 +10,12 @@
 
 ![image-20240618203732002](https://i.postimg.cc/G2fNhCyd/image-20240618203732002.png)
 
-![image-20240618203741170](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240618203741170.png)
+![image-20240618203741170](https://i.postimg.cc/x8KWsZXQ/image-20240618203741170.png)
 
 ### 最小和挑战
 
-![image-20240618203832433](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240618203832433.png)
+![image-20240618203832433](https://i.postimg.cc/Cxdc5twK/image-20240618203848547.png)
 
 ### 汉诺塔
 
-![image-20240618203913347](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20240618203913347.png)
+![image-20240618203913347](https://i.postimg.cc/NM84Zvkd/image-20240618203913347.png)
